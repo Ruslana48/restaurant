@@ -1,0 +1,629 @@
+body {
+    background-repeat: no-repeat;
+    /*background-image: url(../img/main.png);
+    margin-right: 0px;*/
+    max-width: 1440px;
+}
+
+.header-top {
+    box-shadow: 0.1em 0.1em 35px #927f74;
+    height: 125px;
+    background-color: #ffece1;
+    display: flex;
+    padding-left: 135px;
+}
+
+.header--logo {
+    padding-top: 30px;
+    
+}
+
+.header--icons {
+    padding-top: 55px;
+    margin-left: 245px;
+}
+
+.header__icon {
+    text-decoration: none;
+    justify-content: space-between;
+    margin-right: 45px;
+    color: #6e9a89;
+}
+
+.header--order {
+    margin-left: 230px;
+    padding-top: 45px;
+}
+
+.order {
+    text-decoration: none;
+    border: 1px solid #649483;
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-family: 'Clear Sans';
+    font-weight: 700;
+    color: white;
+    background-color: #649483;
+}
+
+.header-main {
+    height: 890px;
+    display: flex;
+    
+}
+
+
+.header-main {
+    /*background-color: #ffece1;*/
+    background-image: url(../2.png);
+    color: #649483;
+    font-family: 'Clear Sans';
+    background-repeat: no-repeat;
+}
+
+.main--photo {
+    
+    display: flex;
+    width: 735px;
+}
+
+.mainphoto {
+    /*transform: translateY(-50px);*/
+    /*width: 735px;*/
+    background-repeat: no-repeat;
+    
+}
+
+.photo-text {
+    margin-top: 770px;
+    max-width: 340px;
+    margin-left: 190px;
+    transform: translateY(-50px;)
+}
+
+.hmain {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.pmain {
+    font-weight: 400;
+    font-size: 15px;
+    
+}
+
+.main--text {
+    /*display: block;*/    
+}
+
+.main-button {
+    margin-left: 180px;
+}
+
+.main--start {
+    text-decoration: none;
+    border: 3px solid #649483;
+    border-radius: 20px;
+    background-color: #649483;
+    color: white;
+    font-size: 18px;
+    font-family: 'Clear Sans';
+    font-weight: bold;
+    padding: 12px 20px;
+    width: 225px;
+}
+
+.main--order {
+    text-decoration: none;
+    border: 3px solid #649483;
+    border-radius: 20px;
+    color: #649483;
+    font-size: 18px;
+    font-family: 'Clear Sans';
+    font-weight: bold;
+    padding: 12px 20px;
+}
+
+.title-main {
+    margin-top: 240px;
+    margin-left: 170px;
+    width: 580px;
+    color: #dd7017;
+    font-size: 95px;
+    font-family: 'Clear Sans';
+    font-weight: bold;
+}
+
+.main {
+    height: 1020px;
+    background-color: #649483;
+    font-family: 'Clear Sans';
+}
+
+.main-our {
+    font-size: 90px;
+    color: white;
+    font-weight: bold;
+    padding-top: 90px;
+    padding-left: 140px;
+    margin-bottom: 0px;
+}
+
+.h2main-our {
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    padding-left: 140px;
+    margin-top: 35px;
+}
+
+.main--block {
+   display: flex;
+    justify-content: space-between; 
+    margin-top: 75px;
+    text-transform: uppercase;
+    
+}
+
+.salmon {
+    background-color: #ffece1;
+    height: 575px;
+    width: 375px;
+    margin-left: 135px;
+    margin-right: 25px;
+    border-radius: 20px;
+    
+}
+
+.title-salmon {
+    font-weight: bold;
+    font-size: 18px;
+    color: #649483;
+    margin-top: 75px;
+    margin-left: 100px;
+    max-width: 150px;
+    text-align: center;
+}
+
+.salmon-salad {
+    color: #649483;
+    font-family: 'Clear Sans';
+    font-weight: 400;
+    font-size: 18px;
+    width: 235px;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 48px;
+}
+
+.salad {
+    background-color: #ffece1;
+    height: 575px;
+    width: 375px;
+    margin-right: 25px;
+    border-radius: 20px;
+}
+
+.main-salad {
+    font-weight: bold;
+    font-size: 18px;
+    color: #649483;
+    margin-top: 75px;
+    margin-left: 80px;
+    text-align: center;
+    max-width: 180px;
+}
+
+.salad-pomerage {
+    color: #649483;
+    font-family: 'Clear Sans';
+    font-weight: 400;
+    font-size: 18px;
+    width: 235px;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 55px;
+}
+
+.signature {
+    background-color: #ffece1;
+    height: 575px;
+    width: 375px;
+    margin-right: 135px;
+    border-radius: 20px;
+
+}
+
+.sign-title {
+    font-weight: bold;
+    font-size: 18px;
+    color: #649483;
+    margin-top: 75px;
+    margin-left: 80px;
+    text-align: center;
+    max-width: 170px;
+}
+
+.signature-chef {
+    color: #649483;
+    font-family: 'Clear Sans';
+    font-weight: 400;
+    font-size: 18px;
+    width: 235px;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 55px;    
+}
+
+.two-blocks {
+    background-clip: #ffece1;
+    font-family: 'Clear Sans';
+    height: 815px;
+    margin-top: 120px;
+}
+
+
+.april {
+    display: flex;
+}
+
+.april-photo {
+    
+}
+
+.april-text {
+    margin-top: 175px;
+    margin-left: 85px;
+    display: block;
+}
+
+.april--textp {
+    font-weight: bold;
+    font-size: 18px;
+    color: #649483;
+}
+
+.april2021 {
+    font-family: 'Clear Sans';
+    font-size: 91px;
+    font-weight: bold;
+     color: #dd7017;
+    margin-top: 10px;
+}
+
+.april-paragraph {
+    color: #649483;
+    font-weight: 400;
+    font-size: 18px;
+    max-width: 540px;
+    margin-top: 0px;
+}
+
+.april-order {
+    display: block;
+    margin-right: 130px;
+}
+
+.april-pictures {
+    
+}
+
+.april1 {
+    position: relative;
+}
+
+.april-button1 {
+    position: absolute;
+    margin-left: 0px;
+    display: block;
+    text-decoration: none;
+    border: 1px solid #649483;
+    color: white;
+    background-color: #649483;
+    font-family: 'Clear Sans';
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 16px;
+    padding: 15px;
+    width: 140px;
+    text-align: center;
+}
+
+.april2 {
+    margin-left: 25px;
+    position: relative;
+}
+
+.april-button2 {
+    position: absolute;
+    margin-left: 0px;
+    display: block;
+    text-decoration: none;
+    border: 1px solid #649483;
+    color: white;
+    background-color: #649483;
+    font-family: 'Clear Sans';
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 16px;
+    padding: 15px;
+    width: 140px;
+    text-align: center;
+    margin-left: 320px;
+}
+
+.recipes {
+    height: 1025px;
+    display: flex;
+    max-width: 815px;
+}
+
+.recipes-pictures {
+    padding-top: 260px;
+}
+
+.recipes-paragraph {
+    font-family: 'Clear Sans';
+    font-size: 18px;
+    font-weight: bold;
+    color: #649483;
+    margin-left: 145px;
+}
+
+.recipesh {
+    color: #dd7017;
+    font-size: 91px;
+    font-weight: bold;
+    margin-left: 145px;
+    margin-top: 10px;
+}
+
+.recipes-photo {
+    display: flex;
+    margin-left: 95px;
+}
+
+.see3-4 {
+    margin-left: 30px;
+}
+
+.see1 {
+    
+}
+
+.see2 {
+    margin-top: 40px;
+    
+}
+
+.see3{
+    
+}
+
+.see4 {
+    margin-top: 40px;
+    
+}
+
+.reci2 {
+    margin-top: 235px;
+    margin-left: 70px;
+}
+
+.what {
+    height: 725px;
+    background-color: #649483;
+}
+
+.title {
+    height: 210px;
+    padding-top: 105px;
+    color: white;
+    font-size: 41px;
+    font-weight: bold;
+    margin-left: 130px;
+}
+
+.title-what {
+    margin-top: 105px;
+}
+
+.people {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    max-width: 1100px;
+}
+
+.anna {
+    
+}
+
+.anna-photo {
+    padding-left: 220px;
+}
+
+.anna-title {
+    font-family: 'Clear Sans';
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    padding-left: 140px;
+}
+
+.anna-paragraph {
+    width: 300px;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 130px;
+    text-align: center;
+}
+
+.zephyr {
+    
+}
+
+.zephyr-photo {
+    padding-left: 180px;
+}
+
+.zephyr-title {
+   font-family: 'Clear Sans';
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    padding-left: 100px;
+}
+
+.zephyr-parag {
+    width: 300px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 100px;
+}
+
+.haley {
+    
+}
+
+.haley-photo {
+    padding-left: 180px;
+}
+
+.haley-title {
+    font-family: 'Clear Sans';
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    padding-left: 100px;
+}
+
+.haley-parag {
+    width: 300px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 100px;
+}
+
+.plan {
+    height: 1030px;
+    background-color: #ffece1;
+    background-image: url(../meal%20plan.png); 
+}
+
+.plan--title {
+    display: inline-block;
+    color: #dd7017;
+    font-size: 100px;
+    font-weight: bold;
+    width: 675px;
+    text-align: center;
+    margin-left: 365px;
+    margin-top: 365px;
+}
+
+.plan--paragraph {
+    width: 600px;
+    text-align: center;
+    color: #649483;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 405px;
+}
+
+.journey {
+    text-decoration: none;
+    border: 1px solid #649483;
+    color: white;
+    padding: 15px 20px 18px 20px;
+    margin-left: 575px;
+    background-color: #649483;
+    margin-top: 37px;
+    display: block;
+    width: 225px;
+    border-radius: 10px;
+    font-family: 'Clear Sans';
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.footer {
+    height: 680px;
+    background-color: #649483;
+    display: flex;
+    
+}
+
+.foot1 {
+    margin-left: 140px;
+    margin-top: 185px;
+}
+
+.foot2 {
+    margin-left: 145px;
+    margin-top: 185px;
+}
+
+.foot3 {
+    margin-left: 135px;
+    margin-top: 185px;
+}
+
+.foot4 {
+    margin-left: 125px;
+    margin-top: 185px;
+}
+
+.foot-our {
+    color: white;
+    font-family: 'Clear Sans';
+    font-size: 24px;
+}
+
+.foot1-block1 {
+    list-style-type: none;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.foot4-parag {
+    color: white;
+    font-family: 'Clear Sans';
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.input {
+    border-radius: 10px;
+    border: 3px solid white;
+    background-color: #649483;
+    padding: 8px 25px 10px 15px;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.submit {
+    margin-top: 20px;
+    width: 104px;
+    display: block;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 10px 15px 10px 14px;
+    text-align: center;
+    color: #649483;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: white;
+}
